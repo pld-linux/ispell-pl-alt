@@ -49,5 +49,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README legalcode.html 
+%doc README legalcode.html
 %{_libdir}/ispell/*
