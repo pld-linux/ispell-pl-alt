@@ -15,17 +15,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	ispell-polish
 
 %description
-Alternative Polish dictionary for ispell, done for gaming purposes initially,
-at the moment contains 2,2 million words and has one of the best grammatic 
-rules.
+Alternative Polish dictionary for ispell, done for gaming purposes
+initially, at the moment contains 2,2 million words and has one of the
+best grammatic rules.
+
 Visit www.kurnik.pl once in awhile.
 
 %description -l pl
-Alternatywny Polski s³ownik dla programu ispell, na pocz±tku tworzony do gier 
-ortograficznych, z czasem przerodzi³ siê w jeden z najwiêkszych (2,2 mln. s³ów),
-najlepiej ubogaconych (m.in. w zasady gramatyczne) oraz najszybciej rozwijanych.
+Alternatywny Polski s³ownik dla programu ispell, na pocz±tku tworzony
+do gier ortograficznych, z czasem przerodzi³ siê w jeden z
+najwiêkszych (2,2 mln. s³ów), najlepiej ubogaconych (m.in. w zasady
+gramatyczne) oraz najszybciej rozwijanych.
 
-Zapraszamy na www.kurnik.pl
+Zapraszamy na www.kurnik.pl .
 
 %prep
 %setup -q -n alt-ispell-pl-%{version}
