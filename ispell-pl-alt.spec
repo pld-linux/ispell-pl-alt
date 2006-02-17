@@ -1,12 +1,12 @@
 Summary:	An alternative Polish dictionary for ispell by kurnik.pl
 Summary(pl):	Alternatywny polski s³ownik dla ispella autorstwa kurnik.pl
 Name:		ispell-pl-alt
-Version:	20051111
+Version:	20060217
 Release:	1
 License:	Creative Commons License (see COPYING)
 Group:		Applications/Text
 Source0:	http://www.kurnik.pl/slownik/ort/alt-ispell-pl-%{version}-src.tar.bz2
-# Source0-md5:	2911b23123322913c98f59c2ce90ee07
+# Source0-md5:	77a8aedde926edf222dc5be3ec14a531
 Source1:	http://creativecommons.org/licenses/sa/1.0/legalcode
 URL:		http://www.kurnik.pl/slownik/ort/
 BuildRequires:	ispell >= 3.2.06
@@ -33,7 +33,7 @@ Zapraszamy na <http://www.kurnik.pl/>.
 %setup -q -n alt-ispell-pl-%{version}
 
 %build
-./build A imiona skroty fachowe/*
+./build A fachowe/*
 
 cp %{SOURCE1} ./legalcode.html
 
