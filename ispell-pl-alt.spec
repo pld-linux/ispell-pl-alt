@@ -1,5 +1,5 @@
 Summary:	An alternative Polish dictionary for ispell by kurnik.pl
-Summary(pl.UTF-8):   Alternatywny polski słownik dla ispella autorstwa kurnik.pl
+Summary(pl.UTF-8):	Alternatywny polski słownik dla ispella autorstwa kurnik.pl
 Name:		ispell-pl-alt
 Version:	20060902
 Release:	1
