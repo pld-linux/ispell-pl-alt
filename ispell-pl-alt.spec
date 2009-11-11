@@ -1,12 +1,12 @@
 Summary:	An alternative Polish dictionary for ispell by kurnik.pl
 Summary(pl.UTF-8):	Alternatywny polski słownik dla ispella autorstwa kurnik.pl
 Name:		ispell-pl-alt
-Version:	20091110
+Version:	20091111
 Release:	1
 License:	Creative Commons License (see COPYING)
 Group:		Applications/Text
 Source0:	http://sjp.pl/slownik/ort/sjp-ispell-pl-%{version}-src.tar.bz2
-# Source0-md5:	299e9827e9817779bb3d7e533c96d3a0
+# Source0-md5:	44052625c9b101c56d483974f6254632
 Source1:	http://creativecommons.org/licenses/sa/1.0/legalcode
 URL:		http://www.kurnik.pl/slownik/ort/
 BuildRequires:	ispell >= 3.2.06
