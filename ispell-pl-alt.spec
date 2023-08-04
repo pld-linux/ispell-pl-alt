@@ -1,18 +1,21 @@
 Summary:	SJP.pl Polish dictionary for ispell
 Summary(pl.UTF-8):	Słownik polski SJP.pl dla ispella
 Name:		ispell-pl-alt
-Version:	20131202
+Version:	20230801
 Release:	1
 License:	Creative Commons License (see COPYING)
 Group:		Applications/Text
 Source0:	http://sjp.pl/slownik/ort/sjp-ispell-pl-%{version}-src.tar.bz2
-# Source0-md5:	4242c84459a30ede4d8577978ee74ce9
+# Source0-md5:	71082dac3b4ba60d6e332fa38a1f93a4
 Source1:	http://creativecommons.org/licenses/sa/1.0/legalcode
 URL:		http://www.sjp.pl/slownik/ort/
 BuildRequires:	ispell >= 3.2.06
 Requires:	ispell >= 3.2.06
 Obsoletes:	ispell-polish
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+# disable debug data
+%global debug_package %{nil}
 
 %description
 SJP.pl (formerly called "alternative") Polish dictionary for ispell,
